@@ -31,7 +31,7 @@ export const HeroSection = () => {
 
             <div className="text-white flex flex-col gap-2 mt-5 items-center md:items-start ls:items-start">
               <Button className="rounded-full w-fit" asChild>
-                <Link href="/criar-loja">
+                <Link href="/create-store">
                   Create store for free
                   <ArrowRight />
                 </Link>
@@ -47,7 +47,7 @@ export const HeroSection = () => {
         <div className="relative h-[20rem] hidden md:h-full order-first md:order-last items-center justify-center md:flex lg:flex">
           <Image
             src="/hero-section-bg.svg"
-            alt="Ilustração com ícones de store, tag e sacola"
+            alt="Ilustration with store icons, tag, and bag."
             width={200}
             height={400}
             className="h-full w-auto object-contain"
