@@ -5,8 +5,8 @@ import { Button } from '../ui/button';
 
 export const HeroSection = () => {
   return (
-    <section className="container relative flex items-center justify-center mt-16">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[20rem] md:h-[36rem] items-center">
+    <section className="relative flex items-center justify-center mt-16">
+      <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[20rem] md:h-[36rem] items-center">
         <div className="flex flex-col items-center justify-center gap-4 md:items-start lg:items-start">
           <h1 className="text-gray-100 text-heading-hg">
             Sell your products as an affiliate in one place.
@@ -43,8 +43,7 @@ export const HeroSection = () => {
             </div>
           </div>
         </div>
-
-        <div className="relative h-[20rem] hidden md:h-full order-first md:order-last items-center justify-center md:flex lg:flex">
+        <div className="absolute right-0 h-[20rem] hidden md:h-full order-first md:order-last items-center justify-center md:flex lg:flex">
           <Image
             src="/hero-section-bg.svg"
             alt="Ilustration with store icons, tag, and bag."
