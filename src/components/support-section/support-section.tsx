@@ -1,10 +1,10 @@
-import { HeartHandshake, PaintbrushVertical, Store } from 'lucide-react';
-import { PT_Sans_Caption } from 'next/font/google';
+import { HeartHandshake, PaintbrushVertical, Store } from 'lucide-react'
+import { PT_Sans_Caption } from 'next/font/google'
 
 const ptSansCaption = PT_Sans_Caption({
   subsets: ['latin'],
   weight: '700',
-});
+})
 
 export const SupportSection = () => {
   return (
@@ -54,5 +54,5 @@ export const SupportSection = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}

@@ -1,9 +1,9 @@
-import { cn } from "@/lib/utils";
-import Link, { LinkProps } from "next/link";
-import { useRouter } from "next/router";
+import { cn } from "@/lib/utils"
+import Link, { LinkProps } from "next/link"
+import { useRouter } from "next/router"
 
 interface ActiveLinkProps extends LinkProps {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 export function ActiveLink({ children, href, ...props }: ActiveLinkProps) {
