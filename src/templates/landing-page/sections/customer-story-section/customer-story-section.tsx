@@ -1,22 +1,22 @@
-import Image from 'next/image'
+import Image from "next/image"
 
 const customerStories = [
   {
     content:
-      'Creating my store with site.set was the best decision for my business. The platform is super intuitive, and I was able to put my products on sale in just a few minutes.',
+      "Creating my store with site.set was the best decision for my business. The platform is super intuitive, and I was able to put my products on sale in just a few minutes.",
     author: {
-      name: 'Annete Bones',
-      role: 'CEO at Anne Corp',
-      avatar: '/customer-01.png',
+      name: "Annete Bones",
+      role: "CEO at Anne Corp",
+      avatar: "/customer-01.png",
     },
   },
   {
     content:
-      'Turning my idea into an online store was easy and fast. I loved the customization options and the simplicity of managing orders. I can already see my products reaching more people!',
+      "Turning my idea into an online store was easy and fast. I loved the customization options and the simplicity of managing orders. I can already see my products reaching more people!",
     author: {
-      name: 'Jacob Jones',
-      role: 'CEO at JJ Corp',
-      avatar: '/customer-02.png',
+      name: "Jacob Jones",
+      role: "CEO at JJ Corp",
+      avatar: "/customer-02.png",
     },
   },
 ]

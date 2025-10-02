@@ -1,11 +1,10 @@
-import { PT_Sans_Caption } from 'next/font/google'
-import Link from 'next/link'
-import { Button } from '../ui/button'
-import { ArrowRight, Store } from 'lucide-react'
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { ArrowRight, Store } from "lucide-react"
 
 export const CallToAction = () => {
   return (
-    <section className="relative py-[88px] bg-[url(/call-to-action-bg.svg)] bg-no-repeat bg-cover mt-9">
+    <section className="relative py-20 bg-[url(/call-to-action-bg.svg)] bg-no-repeat bg-cover mt-9">
       <div className="absolute -top-7 left-1/2 transform -translate-x-1/2 p-4 bg-cyan-300 w-fit rounded-full">
         <Store className="text-cyan-100" />
       </div>
